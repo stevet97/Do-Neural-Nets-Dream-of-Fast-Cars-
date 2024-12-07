@@ -1,21 +1,21 @@
-# Core environment management
-gymnasium==0.26.2
+# Core Environment Management
+gymnasium==0.28.1
 
-# For compatibility with CarRacing - V2
-gymnasium[box2d]
+# Compatibility for CarRacing - V3
+gymnasium[box2d] 
 
-# Required for ML models
-tensorflow>=2.8.0
+# Required for Machine Learning Models
+tensorflow>=2.12.0
 
-# Array operations
-numpy>=1.21.0
+# Array Operations
+numpy>=1.23.0
 
-# Video and frame rendering
-opencv-python-headless>=4.5.0
+# Image Processing and Video Rendering
+pillow>=9.0.0
 
-# For visualizations
-matplotlib>=3.5.0
+# For Visualizations
+matplotlib>=3.6.0
 
-# Web-based app deployment
-streamlit>=1.2.0
+# Web-based App Deployment
+gradio>=3.26.0
 
