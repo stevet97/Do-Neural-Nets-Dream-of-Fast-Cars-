@@ -1,6 +1,20 @@
+# Core environment management
 gymnasium==0.26.2
+
+# Required for ML models
 tensorflow>=2.8.0
+
+# Array operations
 numpy>=1.21.0
+
+# Video and frame rendering
 opencv-python>=4.5.0
+
+# For visualizations
 matplotlib>=3.5.0
+
+# Web-based app deployment
 streamlit>=1.2.0
+
+# Specify Python version (optional if necessary)
+python_version >= "3.8"
