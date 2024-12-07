@@ -26,7 +26,7 @@ print("OpenCV version:", cv2.__version__)
 
 # Test environment (add this here)
 try:
-    env = gym.make('CarRacing-v0', render_mode='rgb_array')
+    env = gym.make('CarRacing-v2', render_mode='rgb_array')
     obs, info = env.reset()
     print("Environment initialized successfully with observation shape:", obs.shape)
     env.close()
@@ -227,7 +227,7 @@ rnn_model.manual_train(x_train_rnn, y_train_rnn, epochs=10, batch_size=hps.batch
 
 
 # Create the gym environment and render the initial frame
-env = gym.make('CarRacing-v0', render_mode='rgb_array')
+env = gym.make('CarRacing-v2', render_mode='rgb_array')
 obs, _ = env.reset()
 print("Environment initialized successfully. Observation shape:", obs.shape)
 env.close()
@@ -361,7 +361,7 @@ else:
     st.write("Using new model for training.")
 
 # Create Gym Environment
-env = gym.make('CarRacing-v0')
+env = gym.make('CarRacing-v2')
 reward_chart = st.line_chart([])
 
 with st.expander("AI Play"):
