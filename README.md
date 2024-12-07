@@ -27,7 +27,7 @@ This project is a stepping stone into the potential of world models, demonstrati
 ![AI Gameplay Screenshot](assets/AI performance.png)
 
 ### Human Playing
-![Human Gameplay Screenshot](assets/human_play.png)
+![Human Gameplay Screenshot](assets/Human performance.png)
 
 ---
 
