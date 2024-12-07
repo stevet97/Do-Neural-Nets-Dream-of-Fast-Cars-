@@ -1,6 +1,9 @@
 # Core environment management
 gymnasium==0.26.2
 
+#For compatibility with CarRacing - V2
+gymnasium[box2d]
+
 # Required for ML models
 tensorflow>=2.8.0
 
