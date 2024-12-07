@@ -1,12 +1,15 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+#!/usr/bin/env python
+# coding: utf-8
+
 # Importing the necessary libraries
 import gymnasium as gym
 import tensorflow as tf
 from tensorflow.keras.layers import LSTM, Dense
 import numpy as np
-import cv2
+import cv2  # Ensure this works after switching to headless
 import matplotlib.pyplot as plt
 import streamlit as st
 print("All libraries imported successfully!")
@@ -15,6 +18,7 @@ print("Gymnasium version:", gym.__version__)
 print("TensorFlow version:", tf.__version__)
 print("NumPy version:", np.__version__)
 print("OpenCV version:", cv2.__version__)
+
 
 
 # In[7]:
