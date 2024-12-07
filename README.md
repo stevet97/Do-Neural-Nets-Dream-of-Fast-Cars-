@@ -116,3 +116,9 @@ This project is licensed under the MIT License. See the LICENSE file for details
 ## Contact
 
 If you have any questions, feel free to reach out via [LinkedIn](https://www.linkedin.com/your-profile) or open an issue in the repository.
+
+---
+
+## Acknowledgements
+
+This project was inspired by the groundbreaking work of David Ha and Jürgen Schmidhuber, whose innovative research on World Models has revolutionized the field of AI and reinforcement learning. Their paper "World Models" provided the foundation for this project and countless others in simulation-based AI
