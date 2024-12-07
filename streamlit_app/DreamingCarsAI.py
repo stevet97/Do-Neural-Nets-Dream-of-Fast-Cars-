@@ -1,22 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[4]:
-
-
-get_ipython().system('python -m pip install --upgrade pip')
-get_ipython().system('pip install --upgrade pip')
-get_ipython().system('pip install gymnasium')
-get_ipython().system('pip install tensorflow')
-get_ipython().system('pip install numpy')
-get_ipython().system('pip install opencv-python')
-get_ipython().system('pip install matplotlib')
-get_ipython().system('pip install streamlit')
-
-
-# In[5]:
-
-
 # Importing the necessary libraries
 import gymnasium as gym
 import tensorflow as tf
