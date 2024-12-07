@@ -24,11 +24,10 @@ This project is a stepping stone into the potential of world models, demonstrati
 
 ## Screenshots
 ### AI Playing
-![AI Gameplay Screenshot](assets/AI performance.png)
+![AI Gameplay Screenshot](./assets/AI%20performance.png)
 
 ### Human Playing
-![Human Gameplay Screenshot](assets/Human performance.png)
-
+![Human Gameplay Screenshot](./assets/Human%20performance.png)
 ---
 
 ## Challenges Faced
