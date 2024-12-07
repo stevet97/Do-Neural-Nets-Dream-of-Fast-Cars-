@@ -2,7 +2,7 @@
 gymnasium==0.26.2
 
 # For compatibility with CarRacing - V2
-box2d-py==2.3.10
+pybox2d
 
 # Required for ML models
 tensorflow>=2.8.0
